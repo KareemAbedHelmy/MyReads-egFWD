@@ -55,7 +55,7 @@ const BooksApp = () => {
 
 					<div className='open-search'>
 						<Link to='/search'>
-							<button><i class="fa fa-search"></i></button>
+							<button><i className="fa fa-search"></i></button>
 						</Link>
 					</div>
 				</div>

@@ -18,7 +18,6 @@ const SearchPage = ({ moveToShelf, books }) => {
 				BooksAPI.search(value).then((allBooks) => {
 					if (allBooks.error) {
 						setSearchedBooks([]);
-						throw new Error(allBooks.error);
 					} else {
 						setSearchedBooks(allBooks);
 					}
